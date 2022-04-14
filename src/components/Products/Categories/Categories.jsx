@@ -1,5 +1,5 @@
 import React from "react";
-import CategoryItem from "../CategoryItem/CategoryItem";
+import CategoryItem from "./CategoryItem";
 
 const Categories = ({ categories }) => {
   return (
@@ -7,8 +7,8 @@ const Categories = ({ categories }) => {
       {categories.map((category) => (
         <CategoryItem
           key={category.id}
-          title={category.id}
-          category={category.imageUrl}
+          title={category.title}
+          imageUrl={category.imageUrl}
         />
       ))}
     </div>

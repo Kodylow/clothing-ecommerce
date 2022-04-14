@@ -8,8 +8,8 @@ import {
   createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase.utils";
 
-import SignUpForm from "../../components/SignUpForm/SignUpForm";
-import SignInForm from "../../components/SignInForm/SignInForm";
+import SignUpForm from "../../components/Auth/SignUpForm/SignUpForm";
+import SignInForm from "../../components/Auth/SignInForm/SignInForm";
 
 const Auth = () => {
   useEffect(() => {
